@@ -4,13 +4,20 @@ Cross‑platform Flutter (mobile + web) app for CargoPro’s Frontend Internship
 
 ## Live Links & Assets
 
-> Replace the placeholders with your actual links before submission.
-
 | Artifact | Link |
 | --- | --- |
 | Web (Firebase Hosting) | https://cargopro-assignment.web.app/ |
 | Android APK (Drive) | https://drive.google.com/file/d/1FoZPb7y_9y6JH5A27FEJHS_MYc9qTgsf/view?usp=sharing |
 | Walkthrough video (Drive) | https://drive.google.com/file/d/1XaI4PzyvoTONfI8upbkogZFWk-vuNH4x/view?usp=sharing |
+
+### Test Login (for reviewers)
+
+To log in without using a real phone number or SMS, a Firebase test phone is configured:
+
+- **Phone:** +2340000000000
+- **OTP code:** 623444
+
+This test number is registered in Firebase Authentication’s “Phone numbers for testing” section, so no real SMS is sent. The flow is identical to production.
 
 ## Tech Stack
 
